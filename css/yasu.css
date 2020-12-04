@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    overflow-x:hidden;
+    overflow-y:hidden;
+    width: 100%;
+    background-image: linear-gradient(to right, #ebeaff, #eee7fc, #f0e4f9, #f3e2f5, #f5dff1, #f5e1f1, #f6e3f2, #f6e5f2, #f6ecf7, #f8f3fb, #fbf9fd, #ffffff);
+}
+
+@font-face {
+    font-family: 'honoka';
+    src: url('../font/honokamaru.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*start of banner*/
+
+.header{
+    height: 187px;
+    position: relative;
+    background-color: #ffa0d3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+.fumiko{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.discord{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: 20px;
+    float: right;
+    margin-top: 10px;
+    
+}
+
+.img1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 295px;
+    height: 71px;
+    z-index: 1;
+    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.img2 {
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    width: 295px;
+    height: 71px;
+    z-index: 1;
+    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.img1:hover{
+    box-shadow: 0 5px 15px 0px #dc5872;
+    transition: box-shadow .3s;
+}
+
+.img2:hover{
+    box-shadow: 0 5px 15px 5px #dc5872;
+    transition: box-shadow .3s;
+}
+
+/*end of banner */
+
+.bruh{
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.card{
+    margin-left: 2.5%;
+    margin-right: 3%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    height: 270px;
+    width: 190px;
+    display: inline-block;
+    box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.3); 
+    
+    
+}
+
+.card-image{
+    background-image: url(../img/first.png);
+    background-size: cover;
+      
+}
+
+.card-image1{
+    background-image: url(../img/second.png);
+    background-size: cover;
+       
+}
+
+.card-image2{
+    background-image: url(../img/third.png);
+    background-size: cover;
+       
+}
+
+.card-image3{
+    background-image: url(../img/fourth.png);
+    background-size: cover;
+       
+}
+
+.card-image4{
+    background-image: url(../img/fifth.png);
+    background-size: cover;
+       
+}
+
+
+
+@media (max-width: 1366px){
+
+    
+    
+  
+
+}
+
+
+@media (orientation: portrait){
+
+    /*start of banner */
+    .header{
+        width: 100%;
+        height: 93px;
+    }
+
+    .fumiko{
+        width: 200%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .discord{
+        display: none;
+    }
+/* end of banner*/
+
+    .bruh{
+        width: 90%;
+        height: 80%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .card{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        height: 150px;
+        width: 107px;
+        display: inline-block;
+        box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.3); 
+        
+    }
+    
+    .card-image{
+        background-image: url(../img/first.png);
+        background-size: cover;
+          
+    }
+    
+    .card-image1{
+        background-image: url(../img/second.png);
+        background-size: cover;
+           
+    }
+    
+    .card-image2{
+        background-image: url(../img/third.png);
+        background-size: cover;
+           
+    }
+    
+    .card-image3{
+        background-image: url(../img/fourth.png);
+        background-size: cover;
+           
+    }
+    
+    .card-image4{
+        background-image: url(../img/fifth.png);
+        background-size: cover;
+           
+    }
+
+}

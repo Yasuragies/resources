@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+}
+
+body{
+    width: 100%; 
+}
+
+@font-face {
+    font-family: 'honoka';
+    src: url('honokamaru.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header{
+    width: 100%;
+    height: 180px;
+    display: inline-block;
+    border-bottom: 10px solid #fe80c4;
+    font-family: 'honoka';
+    position: relative;
+}
+
+button{
+    background-color: #ffb7c5;
+    border: none;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+button:hover{
+    background-color: #fe80c4 ;
+}
+
+.title{
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 15px;
+    font-size: 65px;
+    font-family: 'honoka';
+    color: black;
+}
+
+h1{
+    font-size: 35px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+h5{
+    font-size: 15px;
+    text-transform: none;
+    font-weight: normal;
+    float: right;
+}
+
+.discord{
+    font-size: 15px;
+    font-weight: normal;
+    padding-right: 1%;
+    float: right;
+    padding-top: 1.5%;
+    text-transform: uppercase;
+    font-family: 'honoka';
+    text-align: right;
+    height: 65px;
+    color: black;
+}
+
+
+.logo{
+    display: inline-block;
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 11.8%;
+    
+}
+
+img{
+    height: 180px;
+}
+
+.link{
+    float: right;
+    padding-top: 1%;
+    width: 75px;
+    height: 80px;
+}
+
+.fa-discord{
+    font-size: 65px;
+    color:#8c9eff;
+    position: relative;
+    width: 75px;
+}
+
+.fa-patreon{
+    float: right;
+    font-size: 65px;
+    color:#F96854;
+    height: 36%;
+    width: 90%;
+    padding-right: 5px;
+}
+
+.title:hover{
+    color: #fe80c4;
+}
+
+
+
+@media (max-width: 1366px){
+    .logo{
+        width: 6.5%;
+    }
+}
+
+@media (orientation: portrait){
+    .header{
+        height: 100px;
+        width: 100%;
+    }
+
+    .logo{
+        width: 24.5%;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 15px;
+    }
+
+    img{
+        height: 100px;
+    }
+
+}

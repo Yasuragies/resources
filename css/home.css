@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(to right, #ebeaff, #eee7fc, #f0e4f9, #f3e2f5, #f5dff1, #f5e1f1, #f6e3f2, #f6e5f2, #f6ecf7, #f8f3fb, #fbf9fd, #ffffff);
+}
+
+@font-face {
+    font-family: 'honoka', 'roboto';
+    src: url('/font/honokamaru.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*start of banner*/
+
+.header{
+    height: 187px;
+    position: relative;
+    background-color: #ffa0d3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+.fumiko{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.discord{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: 20px;
+    float: right;
+    margin-top: 10px;
+    
+}
+
+.img1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 295px;
+    height: 71px;
+    z-index: 1;
+    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.img2 {
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    width: 295px;
+    height: 71px;
+    z-index: 1;
+    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.md:hover{
+    box-shadow: 0px 0px 15px 0px #dc5872;
+    transition: box-shadow .3s;
+}
+
+.jp:hover{
+    box-shadow: 0px 0px 15px 0px #dc5872;
+    transition: box-shadow .3s;
+}
+
+.img1:hover{
+    box-shadow: 0px 5px 15px 0px #dc5872;
+    transition: box-shadow .3s;
+}
+
+.img2:hover{
+    box-shadow: 0px 5px 15px 0px #dc5872;
+    transition: box-shadow .3s;
+}
+
+/*end of banner */
+
+.jp{
+    background-image: url('../img/japan.png');
+    width: 248px;
+    height: 350px;
+    background-size: cover;
+    display: inline-block;
+    line-height: 50px;
+    border-radius : 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0,0.7);
+}
+
+.md{
+    background-image: url('../img/Mandarin.png');
+    width: 248px;
+    height: 350px;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0,0.7);
+}
+
+.opt{
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 15px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+@media (orientation: landscape){
+
+    /*it is required for some reason*/
+    .jp{
+        margin-right: 100px;
+    }
+  
+
+}
+
+
+@media (orientation: portrait){
+/*start of banner */
+    .header{
+        width: 100%;
+        height: 93px;
+    }
+
+    .fumiko{
+        width: 200%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .discord{
+        display: none;
+    }
+/* end of banner*/
+    .opt{
+        font-size: 12px;
+        margin-top: 20%;
+        margin-left: 5%;
+        margin-left: 13%;
+    }
+    .md{
+       display: inline-block; 
+       width: 124px;
+       height: 175px;
+    }
+    .jp{
+        display: inline-block;
+        width: 124px;
+       height: 175px;
+       margin-right: 50px;
+    }
+}  

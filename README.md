@@ -1,0 +1,3 @@
+# Japanese
+
+Yasuragi japanese resources
