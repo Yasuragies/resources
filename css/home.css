@@ -154,6 +154,7 @@ body{
        display: inline-block; 
        width: 124px;
        height: 175px;
+        margin-left :1%;
     }
     .jp{
         display: inline-block;
