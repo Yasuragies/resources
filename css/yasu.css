@@ -131,6 +131,30 @@ body{
        
 }
 
+.card-image:hover{
+    box-shadow: 0 5px 15px 0px #dc5872;
+    transition: box-shadow .3s;
+}
+
+.card-image1:hover{
+    box-shadow: 0 5px 15px 0px #dc5872;
+    transition: box-shadow .3s;
+}
+
+.card-image2:hover{
+    box-shadow: 0 5px 15px 0px #dc5872;
+    transition: box-shadow .3s;
+}
+
+.card-image3:hover{
+    box-shadow: 0 5px 15px 0px #dc5872;
+    transition: box-shadow .3s;
+}
+
+.card-image4:hover{
+    box-shadow: 0 5px 15px 0px #dc5872;
+    transition: box-shadow .3s;
+}
 
 
 @media (max-width: 1366px){
