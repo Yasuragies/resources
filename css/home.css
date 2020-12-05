@@ -143,10 +143,8 @@ body{
     }
 /* end of banner*/
     .opt{
-        font-size: 12px;
         margin-top: 20%;
-        margin-left: 5%;
-        margin-left: 13%;
+        width: 100%;
     }
     .md{
        display: inline-block; 
