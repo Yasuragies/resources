@@ -5,7 +5,7 @@
 
 body{
     overflow-x:hidden;
-    overflow-y:hidden;
+    height: 95%;
     width: 100%;
     background-image: linear-gradient(to right, #ebeaff, #eee7fc, #f0e4f9, #f3e2f5, #f5dff1, #f5e1f1, #f6e3f2, #f6e5f2, #f6ecf7, #f8f3fb, #fbf9fd, #ffffff);
 }
